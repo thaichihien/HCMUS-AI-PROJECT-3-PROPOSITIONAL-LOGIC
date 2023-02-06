@@ -97,7 +97,7 @@ class PropositionalResolution:
         self.savefile = []
 
 
-    def Resolution(self,KB : list,alpha : list)->bool:
+    def Resolution(self,KB : list,alpha : list):
         '''
         Propositional-logic resolution
         return result if  KB entails alpha or not
